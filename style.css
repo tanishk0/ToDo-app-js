@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(235, 21%, 11%);
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-y: scroll; height: 200vh;
+}
+.bg-img img{
+    height: 40vh;
+    width: 100%;
+}
+.super-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -15%;
+}
+.container{
+    width: 35%;
+    
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.heading h1{
+    color: #fff;
+    letter-spacing: 6px;
+}
+.heading img{
+    height: 20px;
+    cursor: pointer;
+}
+.to-do-input{
+    width: 100%;
+    height: 45px;
+    background-color: hsl(235, 24%, 19%);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.to-do-input span{
+    height: 18px;
+    width: 18px;
+    border: 0.5px solid hsl(237, 14%, 26%);
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.to-do-input span:hover{
+    border: 0.8px solid hsl(236, 33%, 92%);
+    transition: 0.2s ease-in-out;   
+}
+.to-do-input input{   
+    width: 90%;
+    height: 45px;
+    background: none;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #dbdbdb;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.to-dos{
+    width: 100%;
+    background-color: hsl(235, 24%, 19%);
+    margin-top: 20px;
+}
+.to-dos li{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    background-color:hsl(235, 24%, 19%);
+    border-bottom: 0.2px solid hsl(237, 14%, 26%);
+    color: #fff;
+}
+.to-dos li span{
+    height: 18px;
+    width: 18px;
+    border: 0.5px solid hsl(237, 14%, 26%);
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.to-dos li span:hover{
+    border: 0.8px solid hsl(236, 33%, 92%);
+    transition: 0.2s ease-in-out;
+}
+.to-dos li p{
+    position: relative;
+    left: 25px;
+    font-size: 15px;
+}
+/* if task is completed */
+.comp{
+    background: linear-gradient(to right, #24cffd,#6281fe,#a433ff);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(235, 24%, 19%);
+    color: hsl(234, 11%, 52%);
+    font-weight: 400;
+    font-size: 12px;
+    padding: 10px;
+    height: 45px;
+}
+.footer h3{
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+.task-disp{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.task-disp p:hover{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.delete{
+    position: relative;
+    left: 320px;
+    cursor: pointer;
+}
+.hello{
+    color: rgb(71, 71, 255);
+}
+
+
+
+
+
